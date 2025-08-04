@@ -1,0 +1,17 @@
+[project]
+name = "rag-research-paperr-chatbot"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "chromadb>=1.0.15",
+    "dotenv>=0.9.9",
+    "ipykernel>=6.30.0",
+    "langchain>=0.3.27",
+    "langchain-community>=0.3.27",
+    "langchain-google-genai>=2.1.8",
+    "pypdf>=5.9.0",
+    "sentence-transformers>=5.0.0",
+    "streamlit>=1.47.1",
+]
