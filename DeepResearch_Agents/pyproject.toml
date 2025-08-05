@@ -1,0 +1,11 @@
+[project]
+name = "deepresearch"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "gradio>=5.38.1",
+    "ipykernel>=6.30.0",
+    "openai-agents>=0.2.3",
+]
